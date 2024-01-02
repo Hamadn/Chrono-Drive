@@ -2,6 +2,7 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
 import logo from "/home/hamad/Chrono Drive Website/Chrono Drive/src/assets/chronodrive.svg";
+import Logo from "../Logo";
 const menuItems = [
   {
     name: "Home",
@@ -33,7 +34,7 @@ export default function Header() {
         <div className="inline-flex items-center space-x-2 flex-wrap">
           <span>
             <a href="#">
-              <img src={logo} alt="logo" className="h-9 md:h-12" />
+              <Logo img={logo} className="h-9 md:h-12" />
             </a>
           </span>
         </div>
