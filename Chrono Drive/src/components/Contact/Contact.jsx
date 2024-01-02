@@ -1,7 +1,7 @@
 import Container from "../container/Container";
 import Input from "../Input";
 import Button from "../Button";
-import logo from "/home/hamad/Chrono Drive Website/Chrono Drive/src/assets/5118756-removebg-preview.png";
+import logo from "/home/hamad/Chrono Drive Website/Chrono Drive/src/assets/contact.png";
 
 function Contact() {
   return (
