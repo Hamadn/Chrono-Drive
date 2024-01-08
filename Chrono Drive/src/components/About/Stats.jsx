@@ -1,13 +1,13 @@
 import Container from "../container/Container";
 function Stats() {
   return (
-    <div className="font-[sans-serif] text-white bg-red-700 rounded-lg p-10 h-70">
+    <div className="font-[sans-serif] text-white bg-black rounded-lg p-10 h-70">
       <Container>
-        <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-x-6 gap-y-12 divide-x divide-gray-300">
+        <div className="grid lg:grid-cols-4 sm:grid-cols-2 gap-x-6 gap-y-12 divide-x divide-red-700">
           <div className="text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="fill-black w-10 inline-block"
+              className="fill-red-700 w-10 inline-block"
               viewBox="0 0 512 512"
             >
               <path
@@ -25,7 +25,7 @@ function Stats() {
           <div className="text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="fill-black w-10 inline-block"
+              className="fill-red-700 w-10 inline-block"
               viewBox="0 0 512 512"
             >
               <path
@@ -41,7 +41,7 @@ function Stats() {
           <div className="text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="fill-black w-10 inline-block"
+              className="fill-red-700 w-10 inline-block"
               viewBox="0 0 28 28"
             >
               <path
@@ -56,7 +56,7 @@ function Stats() {
           <div className="text-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              className="fill-black w-10 inline-block"
+              className="fill-red-700 w-10 inline-block"
               viewBox="0 0 512 512"
             >
               <path
