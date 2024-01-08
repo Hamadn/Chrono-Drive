@@ -29,7 +29,7 @@ export default function Header() {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <div className="w-full bg-black top-0 transition-all duration-500">
+    <div className="w-full sticky bg-black top-0 transition-all duration-500 z-[100]">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 sm:px-6 lg:px-8">
         <div className="inline-flex items-center space-x-2 flex-wrap">
           <span>
