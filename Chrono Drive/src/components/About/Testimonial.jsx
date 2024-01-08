@@ -20,7 +20,7 @@ function Testimonial() {
           isIntrinsicHeight={true}
           totalSlides={2}
         >
-          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-gray-800">
+          <h1 className="text-5xl font-bold xl:block hidden leading-tight text-black-800">
             What our customers are
             <br />
             saying
@@ -38,7 +38,7 @@ function Testimonial() {
                       alt="image of profile"
                       className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
                     />
-                    <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-indigo-100 rounded-full">
+                    <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-red-100 rounded-full">
                       <img
                         src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg"
                         alt="commas"
@@ -48,21 +48,22 @@ function Testimonial() {
                   <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
                     <div>
                       <h1 className="text-2xl font-semibold xl:leading-loose text-gray-800">
-                        Some of the best work that was done!
+                        "Exceptional Service!"
                       </h1>
                       <p className="text-base font-medium leading-6 mt-4 text-gray-600">
-                        Our core values are at the heart of all that we do. They
-                        are integrated into our daily work lives and help us to
-                        remember our customers always comes first, the last
-                        thank you should always comes from us.
+                        I had a fantastic experience at CHRONODRIVE. The staff
+                        was friendly, knowledgeable, and went above and beyond
+                        to help me find the perfect car. The entire process was
+                        smooth, and I felt well-informed at every step. I highly
+                        recommend CHRONODRIVE for their exceptional service!
                       </p>
                     </div>
                     <div className="md:mt-0 mt-8">
                       <p className="text-base font-medium leading-4 text-gray-800">
-                        Anna Smith
+                        Sarah T
                       </p>
                       <p className="text-base leading-4 mt-2 mb-4 text-gray-600">
-                        Senior Web Designer
+                        Happy Customer
                       </p>
                     </div>
                   </div>
@@ -82,7 +83,7 @@ function Testimonial() {
                       className="w-full h-full flex-shrink-0 object-fit object-cover shadow-lg rounded"
                       loading="lazy"
                     />
-                    <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-indigo-100 rounded-full">
+                    <div className="w-32 md:flex hidden items-center justify-center absolute top-0 -mr-16 -mt-14 right-0 h-32 bg-red-100 rounded-full">
                       <img
                         src="https://tuk-cdn.s3.amazonaws.com/can-uploader/testimonial-svg1.svg"
                         alt="commas"
@@ -92,21 +93,23 @@ function Testimonial() {
                   <div className="md:w-1/3 lg:w-1/3 xl:ml-32 md:ml-20 md:mt-0 mt-4 flex flex-col justify-between">
                     <div>
                       <h1 className="text-2xl font-semibold xl:leading-loose text-gray-800">
-                        Some of the best work that was done!
+                        "Hassle-Free Purchase"
                       </h1>
                       <p className="text-base font-medium leading-6 mt-4 text-gray-600">
-                        Our core values are at the heart of all that we do. They
-                        are integrated into our daily work lives and help us to
-                        remember our customers always comes first, the last
-                        thank you should always comes from us.
+                        Purchasing my new car from CHRONODRIVE was a breeze. The
+                        team was transparent about pricing, and there were no
+                        hidden fees. They worked within my budget to find a
+                        vehicle that met my needs. The customer service was
+                        outstanding, making it a hassle-free and enjoyable
+                        buying experience.
                       </p>
                     </div>
                     <div className="md:mt-0 mt-8">
                       <p className="text-base font-medium leading-4 text-gray-800">
-                        Anna Smith
+                        Alex M
                       </p>
                       <p className="text-base leading-4 mt-2 mb-4 text-gray-600">
-                        Senior Web Designer
+                        Satisfied Customer
                       </p>
                     </div>
                   </div>
